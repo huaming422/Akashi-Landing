@@ -34,7 +34,7 @@ export const First = () => {
         !wide ? 
         <img src={back1} className="object-cover w-full h-full" style={{minHeight: '400px'}}></img>
         :
-        <img src={back} className="object-cover h-[80vh] w-full overflow-hidden" ></img>
+        <img src={back} className="object-cover h-[78vh] w-full overflow-hidden" ></img>
         }
       </div>
     </div>

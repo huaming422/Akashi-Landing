@@ -17,7 +17,7 @@ export const Navbar = () => {
                         <div className='lg:block hidden bg-cover bg-center w-24 h-8 bg-[url("./img/Akashi4_1.png")]'></div>
                     </div>
 
-                    <button data-collapse-toggle="navbar-default" onClick={handleClick} type="button" className="ml-auto inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-xl lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                    <button data-collapse-toggle="navbar-default" onClick={handleClick} type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-xl lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
                         <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                     </button>
@@ -50,7 +50,7 @@ export const Navbar = () => {
             </nav>
             <div className='drop-shadow-[0_4px_4px_rgba(0,0,0,1)] w-full' style={{ background: 'linear-gradient(180deg, #CC6832 0%, rgba(204, 104, 50, 0.15) 100%)', height: '1px' }}></div>
             <div className={isMobileNavOpen ? "lg:hidden w-full flex flex-col justify-between " : "hidden"}>
-                <ul className="font-medium flex flex-col p-4 lg:p-0 justify-center mt-4 border border-gray-100 bg-gray-50 mt-0 border-0 bg-white dark:bg-gray-800 dark:bg-gray-900 dark:border-gray-700">
+                <ul className="font-medium flex flex-col p-4 lg:p-0 justify-center mt-0 border-gray-100 border-0 bg-white dark:bg-gray-900 dark:border-gray-700">
                     <li>
                         <a href="#" className="hover:cursor-pointer block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-linkTextColor lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0  lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent" aria-current="page">DashBoard</a>
                     </li>
